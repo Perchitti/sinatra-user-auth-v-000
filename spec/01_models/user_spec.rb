@@ -23,8 +23,8 @@ RSpec.describe User, type: :model do
       expect(user.email).to eq("email@email.com")
     end
 
-    it "has a password" do 
-      expect(user.password).to eq("password")
-    end
+    #it "has a password" do 
+    #  expect(user.password).to eq("password")
+    #end
   end
 end
